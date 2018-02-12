@@ -1,0 +1,38 @@
+{
+  "name": "authentooo",
+  "version": "0.0.1",
+  "description": "OAuth 2 Server Implementation",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/inf3cti0n95/authentooo.git"
+  },
+  "author": "Viraj Trivedi <inf3cti0n95@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "bugs": {
+    "url": "https://github.com/inf3cti0n95/authentooo/issues"
+  },
+  "homepage": "https://github.com/inf3cti0n95/authentooo#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "oauth",
+    "oauth2",
+    "oauth2-server",
+    "authentication"
+  ],
+  "devDependencies": {
+    "@types/cors": "^2.8.3",
+    "@types/express": "^4.11.1",
+    "@types/helmet": "^0.0.37",
+    "tslint": "^5.9.1",
+    "tslint-config-airbnb": "^5.6.0",
+    "typescript": "^2.7.1"
+  },
+  "dependencies": {
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "helmet": "^3.11.0"
+  }
+}
